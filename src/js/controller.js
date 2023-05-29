@@ -120,11 +120,11 @@ const controlAddRecipe = async function (newRecipe) {
     addRecipeView.renderError(err.message);
   }
 };
-
+//comment
 const newFeature = function () {
   console.log('Welcome to the application!');
 };
-
+//comment
 const init = function () {
   bookmarksView.addHandlerRender(controlBookmarks);
   recipeView.addHandlerRender(controlRecipes);
